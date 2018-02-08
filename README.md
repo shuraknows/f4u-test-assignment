@@ -22,7 +22,7 @@ Cover at least your application service layer by unit tests.
 
 Client side:
 Create a web interface where client can manage his shipping addresses.
-It's preferably to use Angular.
+It's preferably to use Angular 5.
 
 Fork your own copy of eglobal-it/f4u-test-assignment to your account and share the result with us.
 
