@@ -15,14 +15,14 @@ We should be able to create, update, delete and get shipping addresses. Also get
 It's not necessary to implement an authentication layer, but write what way you would implement it.
 
 Backend requirements:
-Use PHP 7, Symfony 3 (preferably).
+Use PHP 7.2, Symfony 3.4.* or 4.* (preferably).
 Use DDD (Domain-driven design)
 Use Mysql or whatever you want (e.g. in memory DB) for storing data.
 Cover at least your application service layer by unit tests.
 
 Client side:
 Create a web interface where client can manage his shipping addresses.
-It's preferably to use AngularJs (1 or 2).
+It's preferably to use Angular.
 
 Fork your own copy of eglobal-it/f4u-test-assignment to your account and share the result with us.
 
