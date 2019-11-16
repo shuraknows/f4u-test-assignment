@@ -1,6 +1,6 @@
 ## Deploy
 
-###Clone and install:
+### Clone and install:
 ~~~~
 git clone git@github.com:shuraknows/f4u-test-assignment.git
 composer install
