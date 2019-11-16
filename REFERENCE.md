@@ -66,3 +66,9 @@ curl --request POST \
 }'
 ~~~~
 
+
+## Authentication
+As long as it is REST API, I would propose to use authentication using API Keys. Flow should be following:
+- Client does request to certain endpoint and passes credentials.
+- On endpoint credentials are checked, then we making record in corresponding table and return back the api-key.
+- Client passes api-key in every request to authenticate. 
