@@ -1,0 +1,29 @@
+add_shipping_address:
+  path: /clients/{clientId}/addresses
+  controller: App\Infrastructure\Controller\ShippingAddressController::add
+  methods: [ POST ]
+
+get_shipping_address_data:
+  path: /clients/{clientId}/addresses/{addressId}
+  controller: App\Infrastructure\Controller\ShippingAddressController::getShippingAddress
+  methods: [ GET ]
+
+set_default_shipping_address:
+  path: /clients/{clientId}/addresses/{addressId}/set-default
+  controller: App\Infrastructure\Controller\ShippingAddressController::setDefault
+  methods: [ POST ]
+
+delete_shipping_address:
+  path: /clients/{clientId}/addresses/{addressId}
+  controller: App\Infrastructure\Controller\ShippingAddressController::delete
+  methods: [ DELETE ]
+
+edit_shipping_address:
+  path: /clients/{clientId}/addresses/{addressId}
+  controller: App\Infrastructure\Controller\ShippingAddressController::edit
+  methods: [ POST ]
+
+get_client_data:
+  path: /clients/{clientId}
+  controller: App\Infrastructure\Controller\ClientController::getClientData
+  methods: [ GET ]
